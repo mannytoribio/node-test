@@ -1,0 +1,31 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^27.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@types/jest": "^27.0.2",
+    "babel-jest": "^27.3.1"
+  }
+}
